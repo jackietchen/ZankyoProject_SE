@@ -6765,7 +6765,8 @@ select {
     margin: 0; }
   .side-nav li {
     float: none;
-    padding: 0 15px; }
+    /*padding: 0 15px;*/
+    padding: 0px; }
     .side-nav li:hover, .side-nav li.active {
       background-color: #ddd; }
   .side-nav a {
@@ -6785,7 +6786,8 @@ select {
 
 .side-nav.fixed a {
   display: block;
-  padding: 0 15px;
+  /*padding: 0 15px;*/
+  padding: 0 30px;
   color: #444; }
 
 .side-nav.fixed {

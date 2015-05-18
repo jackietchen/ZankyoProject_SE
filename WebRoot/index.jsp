@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -15,16 +15,22 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<meta http-equiv="expires" content="0">    
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page">
-	<link type="text/css" rel="stylesheet" href="./materialize/css/materialize.min.css"  media="screen,projection"/>
+	<link type="text/css" rel="stylesheet" href="./materialize/css/materialize.css"  media="screen,projection"/>
 
 	<!--Let browser know website is optimized for mobile-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
   </head>
   
   <body>
-    This is my JSP page. <br>
-    <script type="text/javascript" src="./js/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="./js/jquery.cookie.js"></script>
+  	<div class="nav-wrapper">
+  	  <ul class="side-nav fixed">
+  	  	<li><a class="waves-effect btn-flat" href="#">123</a></li>
+  	  	<li><a class="waves-effect btn-flat" href="#">456</a></li>
+  	  </ul>
+  	</div>
+	<script type="text/javascript" src="./js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.cookie.js"></script>
 	<script type="text/javascript" src="./materialize/js/materialize.min.js"></script>
+	<script type="text/javascript" src="./js/zankyo.js"></script>
   </body>
 </html>
