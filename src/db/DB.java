@@ -66,7 +66,7 @@ public class DB {
 			return false;
 		}
 	}
-	public boolean deleteinfo(String username)
+	public boolean deleteUser(String username)
 	{
 		try{
 			pstmt=ct.prepareStatement("delete from user where username = ?");
