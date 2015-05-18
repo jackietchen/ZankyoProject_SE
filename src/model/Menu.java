@@ -4,6 +4,7 @@ public class Menu {
 	private int id;
 	private String name;
 	private float price;
+	private String unit;
 	private String img;
 	public int getId() {
 		return id;
@@ -28,6 +29,12 @@ public class Menu {
 	}
 	public void setImg(String img) {
 		this.img = img;
+	}
+	public String getUnit() {
+		return unit;
+	}
+	public void setUnit(String unit) {
+		this.unit = unit;
 	}
 	
 }
