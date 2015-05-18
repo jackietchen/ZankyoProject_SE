@@ -22,12 +22,36 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-  	<div class="nav-wrapper">
-  	  <ul class="side-nav fixed">
-  	  	<li><a class="waves-effect btn-flat" href="#">123</a></li>
-  	  	<li><a class="waves-effect btn-flat" href="#">456</a></li>
-  	  </ul>
+	<!-- Header -->
+	<nav>
+      <div class="nav-wrapper teal">
+        <a href="index.jsp" class="brand-logo center">回香客餐饮管理系统</a>
+      </div>
+    </nav>
+  	<!-- /Header -->
+  	
+  	<!-- Content -->
+  	<div class="container">
+  	  <div class="row">
+  		<form class="col s12">
+  		  <br/>
+  		  <div class="row">
+  			<div class="input-field col s12">
+  			  <i class="mdi-action-account-circle prefix"></i>
+		      <input id="username" type="text" class="validate">
+		      <label for="username">用户名</label>
+		    </div>
+		    <div class="input-field col s12">
+		      <i class="mdi-action-https prefix"></i>
+		      <input id="password" type="password" class="validate">
+		      <label for="password">密码</label>
+		    </div>
+		    <button type="submit" class="waves-effect waves-light btn-large" style="width:100%">登录</button>
+  		  </div>
+  		</form>
+  	  </div>
   	</div>
+  	<!-- /Content -->
 	<script type="text/javascript" src="./js/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="./js/jquery.cookie.js"></script>
 	<script type="text/javascript" src="./materialize/js/materialize.min.js"></script>

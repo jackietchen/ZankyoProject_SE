@@ -22,7 +22,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-  	<!-- Header -->
+	<!-- Header -->
   	<div class="nav-wrapper">
   	  <ul class="side-nav fixed">
   	  	<li><a class="waves-effect btn-flat" href="#">123</a></li>
@@ -32,6 +32,24 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   	<!-- /Header -->
   	
   	<!-- Content -->
+  	<div class="container">
+  	  <div class="row">
+  		<form class="col s12">
+  		  <div class="row">
+  			<div class="input-field col s12">
+  			  <i class="mdi-action-account-circle prefix"></i>
+		      <input id="username" type="text" class="validate">
+		      <label for="username">用户名</label>
+		    </div>
+		    <div class="input-field col s12">
+		      <i class="mdi-action-account-circle prefix"></i>
+		      <input id="password" type="password" class="validate">
+		      <label for="password">密码</label>
+		    </div>
+  		  </div>
+  		</form>
+  	  </div>
+  	</div>
   	<!-- /Content -->
 	<script type="text/javascript" src="./js/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="./js/jquery.cookie.js"></script>
