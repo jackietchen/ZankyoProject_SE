@@ -6,7 +6,7 @@ public class Balance_detail {
 	private int id;
 	private Date time;
 	private String name;
-	private float amount;
+	private int amount;
 	private float balance;
 	public int getId() {
 		return id;
@@ -26,16 +26,16 @@ public class Balance_detail {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public float getAmount() {
-		return amount;
-	}
-	public void setAmount(float amount) {
-		this.amount = amount;
-	}
 	public float getBalance() {
 		return balance;
 	}
 	public void setBalance(float balance) {
 		this.balance = balance;
+	}
+	public int getAmount() {
+		return amount;
+	}
+	public void setAmount(int amount) {
+		this.amount = amount;
 	}
 }

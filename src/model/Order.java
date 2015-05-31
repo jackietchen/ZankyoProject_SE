@@ -14,8 +14,8 @@ public class Order {
 	public Date getTime() {
 		return time;
 	}
-	public void setTime(Date time) {
-		this.time = time;
+	public void setTime(Date date) {
+		this.time = date;
 	}
 	public String getTable() {
 		return table;

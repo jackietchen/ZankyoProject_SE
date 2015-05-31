@@ -3,13 +3,13 @@ package model;
 import java.sql.Date;
 
 public class Balance_daily {
-	private Date date;
+	private Date time;
 	private float balance;
-	public Date getDate() {
-		return date;
+	public Date getTime() {
+		return time;
 	}
-	public void setDate(Date date) {
-		this.date = date;
+	public void setTime(Date time) {
+		this.time = time;
 	}
 	public float getBalance() {
 		return balance;
