@@ -38,4 +38,5 @@ public class Balance_detail_action extends ActionSupport {
 		else
 			return ERROR;
 	}
+	
 }
